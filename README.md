@@ -139,6 +139,14 @@ So why did Nintendo remove this idiot proof feature from their first mapper in t
 
 The theory is that this should be 100% compatible with MBC5. That said, it is not programmed to behave exactly like an MBC5, so there could be a game out there that doesn't work.
 
+## Firmware Versions
+
+V1 - Original code from Alex's blog
+
+V1.1 - Removed internal FRAM chip select logic to lower power use 1 to 3%
+
+V2 - Changed project compiler settings to reduce power 36 to 41%
+
 ## Links
 
 Here are the links mentioned through the readme. They are already in the readme, but also here for aid of finding them.
