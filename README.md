@@ -6,8 +6,6 @@ This is my take of a CPLD based flash cart. This is my first version of it, as I
 
 The whole project is based from Alex's project from years back. Without that project, I would never have picked this up and spend my time figuring out how to work with CPLDs. I am not a programmer and do not claim to be. Picking up Alex's code I can see how things work with my previous knowledge of how carts operate.
 
-Alex's project can be found here: https://github.com/insidegadgets/Gameboy-MBC5-MBC1-Hybrid
-
 ![20240724_193152](https://github.com/user-attachments/assets/640603c4-fff9-43e4-a779-eaa6f85a892c)
 
 ![20240724_193237](https://github.com/user-attachments/assets/b2873e74-364e-4473-9696-c0db93efc231)
@@ -141,11 +139,17 @@ The theory is that this should be 100% compatible with MBC5. That said, it is no
 
 ## Firmware Versions
 
-V1 - Original code from Alex's blog
+### V1
 
-V1.1 - Removed internal FRAM chip select logic to lower power use 1 to 3%
+Original code from Alex's blog
 
-V2 - Changed project compiler settings to reduce power use 36 to 41%
+### V1.1
+
+Removed internal FRAM chip select logic to lower cartridge power consumption 1 to 3%
+
+### V2
+
+Changed project compiler settings to lower cartridge power consumption 36 to 41%
 
 ## Links
 
