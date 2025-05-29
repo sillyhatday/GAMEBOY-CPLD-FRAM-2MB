@@ -243,7 +243,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 | v1.1 | EPM3032A | 30.1mA | 150.5mW | -3.01% |
 | v1.1 | EPM7032S | -- | -- | -- |
 | v1.1 | ATF1502A | -- | -- | -- |
-| v2.0 | EPM3064A | -- | -- | -- |
+| v2.0 | EPM3064A | 23.2mA | 115.8mW | -33.67% |
 | v2.0 | EPM3032A | -- | -- | -- |
 | v2.0 | EPM7032S | -- | -- | -- |
 | v2.0 | ATF1502A | -- | -- | -- |
