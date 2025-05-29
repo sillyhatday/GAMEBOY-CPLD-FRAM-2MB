@@ -56,7 +56,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 **Total average power: 155.1mW**
 
-### Altera EPM7032A V2.0:
+### Altera EPM7032S V2.0:
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
@@ -115,7 +115,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 **Total average power: 150.5 mW**
 
-### Altera EPM7032A V2.0:
+### Altera EPM7032S V2.0:
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
@@ -155,7 +155,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 **Total average power: xxxmW**
 
-### Altera EPM7032A V2.0:
+### Altera EPM7032S V2.0:
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
