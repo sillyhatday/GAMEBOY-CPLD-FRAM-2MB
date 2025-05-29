@@ -178,20 +178,20 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
-| Intro Animation | 2.2 | -- | -- | -- |
-| Title Screen Low | 2.2 | -- | -- | -- |
-| Title Screen High | 2.2 | -- | -- | -- |
-| Overworld A | 2.2 | -- | -- | -- |
-| Overworld B | 2.2 | -- | -- | -- |
-| Overworld Talking | 2.2 | -- | -- | -- |
-| Pokemon Centre Nurse | 2.2 | -- | -- | -- |
-| Battle Scene | 2.2 | -- | -- | -- |
-| Pause Menu | 2.2 | -- | -- | -- |
-| Pokemon Stats | 2.2 | -- | -- | -- |
+| Intro Animation | 2.2 | 39.5 | 17 | 89.8 |
+| Title Screen Low | 2.2 | 38.7 | 17.6 | 88 |
+| Title Screen High | 2.2 | 52.5 | 23.9 | 119.3 |
+| Overworld A | 2.2 | 46.9 | 21.3 | 106.6 |
+| Overworld B | 2.2 | 41.5 | 18.9 | 94.3 |
+| Overworld Talking | 2.2 | 60.6 | 27.6 | 137.7 |
+| Pokemon Centre Nurse | 2.2 | 60.2 | 27.4 | 136.8 |
+| Battle Scene | 2.2 | 51.2 | 23.3 | 116.4 |
+| Pause Menu | 2.2 | 58.8 | 26.7 | 133.6 |
+| Pokemon Stats | 2.2 | 59.6 | 27.1 | 135.5 |
 
-**Total average current: xxxmA**
+**Total average current: 23.2mA**
 
-**Total average power: xxxmW**
+**Total average power: 115.8mW**
 
 ### Altera EPM7032S V2.0:
 
