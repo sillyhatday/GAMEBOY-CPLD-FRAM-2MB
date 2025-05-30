@@ -251,7 +251,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 **Total average power: xxxmW**
 
-## Averages & Percents
+## Averages & Percentages
 
 | Firmware | CPLD | Current | Power | % diff vs V1.0 |
 | -------- | ---- | ------- | ------- | ------------ |
