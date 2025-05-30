@@ -193,6 +193,26 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 **Total average power: 115.8mW**
 
+### Altera EPM3032A V2.0:
+
+| Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
+| ---------------- | ------------ | ----- | ---------- | -------- |
+| Intro Animation | 2.2 | 35 | 15.9 | 79.6 |
+| Title Screen Low | 2.2 | 34.3 | 15.6 | 78 |
+| Title Screen High | 2.2 | 46 | 20.9 | 104.6 |
+| Overworld A | 2.2 | 40.7 | 18.5 | 92.5 |
+| Overworld B | 2.2 | 36 | 16.4 | 81.8 |
+| Overworld Talking | 2.2 | 53.8 | 24.5 | 122.3 |
+| Pokemon Centre Nurse | 2.2 | 53.5 | 24.3 | 121.6 |
+| Battle Scene | 2.2 | 45.9 | 20.9 | 104.3 |
+| Pause Menu | 2.2 | 52.8 | 24 | 120 |
+| Pokemon Stats | 2.2 | 53.3 | 24.2 | 121.1 |
+
+**Total average current: 20.51mA**
+
+**Total average power: 102.6mW**
+
+
 ### Altera EPM7032S V2.0:
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
@@ -244,7 +264,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 | v1.1 | EPM7032S | -- | -- | -- |
 | v1.1 | ATF1502A | -- | -- | -- |
 | v2.0 | EPM3064A | 23.2mA | 115.8mW | -33.67% |
-| v2.0 | EPM3032A | -- | -- | -- |
+| v2.0 | EPM3032A | 20.51mA | 102.6mW | -33.84% |
 | v2.0 | EPM7032S | -- | -- | -- |
 | v2.0 | ATF1502A | -- | -- | -- |
 
