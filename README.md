@@ -6,12 +6,6 @@ This is my take of a CPLD based flash cart. This is my first version of it, as I
 
 The whole project is based from Alex's project from years back. Without that project, I would never have picked this up and spend my time figuring out how to work with CPLDs. I am not a programmer and do not claim to be. Picking up Alex's code I can see how things work with my previous knowledge of how carts operate.
 
-![20240724_193152](https://github.com/user-attachments/assets/640603c4-fff9-43e4-a779-eaa6f85a892c)
-
-![20240724_193237](https://github.com/user-attachments/assets/b2873e74-364e-4473-9696-c0db93efc231)
-
-![20240724_193322](https://github.com/user-attachments/assets/1edb8943-bc68-4531-a703-fbf612c330d6)
-
 ## Advantages vs disadvantages:
 
 ### Advantages:
@@ -24,7 +18,6 @@ The whole project is based from Alex's project from years back. Without that pro
 
 	- Parts are all obsolete and found second hand
 	- Programming the CPLD is non-trivial
-	- Power use is high
 	- Extra components required to program CPLD
  	- More circuit board components required
 
@@ -80,9 +73,29 @@ So why did Nintendo remove this idiot proof feature from their first mapper in t
 
 The theory is that this should be 100% compatible with MBC5. That said, it is not programmed to behave exactly like an MBC5, so there could be a game out there that doesn't work.
 
+## PCB Versions
+
+### PCB V1.0
+
+This is the first release version of the crtridge.
+
+![20240724_193152](https://github.com/user-attachments/assets/640603c4-fff9-43e4-a779-eaa6f85a892c)
+
+![20240724_193237](https://github.com/user-attachments/assets/b2873e74-364e-4473-9696-c0db93efc231)
+
+![20240724_193322](https://github.com/user-attachments/assets/1edb8943-bc68-4531-a703-fbf612c330d6)
+
+## PCB V2.0
+
+A larger update to include CPLD configuration for different manufactures and different models. (Atmel chips are as yet untested)
+
+![Gameboy CPLD Cart + FRAM Front](https://github.com/user-attachments/assets/4d8a49fe-12c9-41a0-a731-f766f4bedcbb)
+
+![Gameboy CPLD Cart + FRAM Back](https://github.com/user-attachments/assets/91729d95-e8c0-497a-9d2d-1688df64045c)
+
 ## Firmware Versions
 
-### V1
+### V1.0
 
 Original code from Alex's blog
 
@@ -90,7 +103,7 @@ Original code from Alex's blog
 
 Removed internal FRAM chip select logic to lower cartridge power consumption 1 to 3%
 
-### V2
+### V2.0
 
 Changed project compiler settings to lower cartridge power consumption 36 to 41%
 
