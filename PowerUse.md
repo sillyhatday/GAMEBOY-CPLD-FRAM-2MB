@@ -138,20 +138,20 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
-| Intro Animation | 2.2 | -- | -- | -- |
-| Title Screen Low | 2.2 | -- | -- | -- |
-| Title Screen High | 2.2 | -- | -- | -- |
-| Overworld A | 2.2 | -- | -- | -- |
-| Overworld B | 2.2 | -- | -- | -- |
-| Overworld Talking | 2.2 | -- | -- | -- |
-| Pokemon Centre Nurse | 2.2 | -- | -- | -- |
-| Battle Scene | 2.2 | -- | -- | -- |
-| Pause Menu | 2.2 | -- | -- | -- |
-| Pokemon Stats | 2.2 | -- | -- | -- |
+| Intro Animation | 2.2 | 76 | 34.6 | 172.7 |
+| Title Screen Low | 2.2 | 75.2 | 34.2 | 170.9 |
+| Title Screen High | 2.2 | 112 | 51 | 254.6 |
+| Overworld A | 2.2 | 81.6 | 37.1 | 185.5 |
+| Overworld B | 2.2 | 76.4 | 34.7 | 173.6 |
+| Overworld Talking | 2.2 | 116.4 | 52.9 | 264.6 |
+| Pokemon Centre Nurse | 2.2 | 116.6 | 53 | 265 |
+| Battle Scene | 2.2 | 87.4 | 39.7 | 198.6 |
+| Pause Menu | 2.2 | 94.3 | 42.9 | 214.3 |
+| Pokemon Stats | 2.2 | 94.5 | 43 | 214.8 |
 
-**Total average current: xxxmA**
+**Total average current: 42.3mA**
 
-**Total average power: xxxmW**
+**Total average power: 211.5mW**
 
 ### Atmel ATF1502A V1.1:
 
@@ -217,16 +217,16 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
-| Intro Animation | 2.2 | -- | -- | -- |
-| Title Screen Low | 2.2 | -- | -- | -- |
-| Title Screen High | 2.2 | -- | -- | -- |
-| Overworld A | 2.2 | -- | -- | -- |
-| Overworld B | 2.2 | -- | -- | -- |
-| Overworld Talking | 2.2 | -- | -- | -- |
-| Pokemon Centre Nurse | 2.2 | -- | -- | -- |
-| Battle Scene | 2.2 | -- | -- | -- |
-| Pause Menu | 2.2 | -- | -- | -- |
-| Pokemon Stats | 2.2 | -- | -- | -- |
+| Intro Animation | 2.2 | 48 | 21.8 | 109.1 |
+| Title Screen Low | 2.2 | 47.4 | 21.6 | 107.7 |
+| Title Screen High | 2.2 | 102 | 46.4 | 231.8 |
+| Overworld A | 2.2 | 54.7 | 24.9 | 124.3 |
+| Overworld B | 2.2 | 49.9 | 22.7 | 113.4 |
+| Overworld Talking | 2.2 | 90.8 | 41.3 | 206.6 |
+| Pokemon Centre Nurse | 2.2 | 90.8 | 41.3 | 206.4 |
+| Battle Scene | 2.2 | 61.3 | 27.9 | 139.3 |
+| Pause Menu | 2.2 | 68 | 30.9 | 154.6 |
+| Pokemon Stats | 2.2 | 68 | 30.9 | 154.6 |
 
 **Total average current: xxxmA**
 
@@ -236,20 +236,20 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
-| Intro Animation | 2.2 | -- | -- | -- |
-| Title Screen Low | 2.2 | -- | -- | -- |
-| Title Screen High | 2.2 | -- | -- | -- |
-| Overworld A | 2.2 | -- | -- | -- |
-| Overworld B | 2.2 | -- | -- | -- |
-| Overworld Talking | 2.2 | -- | -- | -- |
-| Pokemon Centre Nurse | 2.2 | -- | -- | -- |
-| Battle Scene | 2.2 | -- | -- | -- |
-| Pause Menu | 2.2 | -- | -- | -- |
-| Pokemon Stats | 2.2 | -- | -- | -- |
+| Intro Animation | 2.2 | 81 | 36.8 | 184.1 |
+| Title Screen Low | 2.2 | 80.6 | 36.6 | 183.2 |
+| Title Screen High | 2.2 | 123 | 55.9 | 279.6 |
+| Overworld A | 2.2 | 87.5 | 39.8 | 198.9 |
+| Overworld B | 2.2 | 82.7 | 37.6 | 188 |
+| Overworld Talking | 2.2 | 123 | 55.9 | 279.6 |
+| Pokemon Centre Nurse | 2.2 | 123.2 | 56 | 280 |
+| Battle Scene | 2.2 | 93.9 | 42.7 | 213.4 |
+| Pause Menu | 2.2 | 100 | 45.5 | 227.3 |
+| Pokemon Stats | 2.2 | 101.9 | 46.3 | 231.6 |
 
-**Total average current: xxxmA**
+**Total average current: 45.3mA**
 
-**Total average power: xxxmW**
+**Total average power: 226.6mW**
 
 ## Averages & Percentages
 
@@ -261,12 +261,12 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 | v1.0 | ATF1502A | -- | -- | -- |
 | v1.1 | EPM3064A | 35mA | 175.1mW | +0.23% |
 | v1.1 | EPM3032A | 30.1mA | 150.5mW | -3.01% |
-| v1.1 | EPM7032S | -- | -- | -- |
+| v1.1 | EPM7032S | 42.3mA | 211.5mW | -- |
 | v1.1 | ATF1502A | -- | -- | -- |
 | v2.0 | EPM3064A | 23.2mA | 115.8mW | -33.67% |
 | v2.0 | EPM3032A | 20.51mA | 102.6mW | -33.84% |
-| v2.0 | EPM7032S | -- | -- | -- |
-| v2.0 | ATF1502A | -- | -- | -- |
+| v2.0 | EPM7032S | 31mA | 154.8mW | -- |
+| v2.0 | ATF1502A | 45.3mA | 226.6mW | -- |
 
 ## Firmware Changes
 
