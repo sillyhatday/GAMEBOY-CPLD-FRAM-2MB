@@ -232,7 +232,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 
 **Total average power: xxxmW**
 
-### Atmel ATF1502A V2.0:
+### Atmel ATF1502A V2.0?:
 
 | Pokemon Shin Red | Resistance Ω | Vdrop | Current mA | Power mW |
 | ---------------- | ------------ | ----- | ---------- | -------- |
@@ -266,7 +266,7 @@ Each reading was taken with no button inputs and the game just doing its thing. 
 | v2.0 | EPM3064A | 23.2mA | 115.8mW | -33.67% |
 | v2.0 | EPM3032A | 20.51mA | 102.6mW | -33.84% |
 | v2.0 | EPM7032S | 31mA | 154.8mW | -- |
-| v2.0 | ATF1502A | 45.3mA | 226.6mW | -- |
+| v2.0? | ATF1502A | 45.3mA | 226.6mW | -- |
 
 ## Firmware Changes
 
