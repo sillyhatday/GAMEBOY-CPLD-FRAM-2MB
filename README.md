@@ -87,7 +87,7 @@ This is the first release version of the crtridge.
 
 ## PCB V2.0
 
-A larger update to include CPLD configuration for different manufactures and different models. (Atmel chips are as yet untested)
+A larger update to include CPLD configuration for different manufactures and different models. There is currently compatibility issues with the MAX7000 & Atmel chips. This is an issue with the code and not something I'll be rushing to fix. Th Atmel chips might be new, but they are harder to program and the MAX7000 use more power than MAX3000.
 
 ![Gameboy CPLD Cart + FRAM Front](https://github.com/user-attachments/assets/4d8a49fe-12c9-41a0-a731-f766f4bedcbb)
 
