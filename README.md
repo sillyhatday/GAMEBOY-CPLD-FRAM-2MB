@@ -6,15 +6,23 @@ This is my take of a CPLD based flash cart. This is my first version of it, as I
 
 The whole project is based from Alex's project from years back. Without that project, I would never have picked this up and spend my time figuring out how to work with CPLDs. I am not a programmer and do not claim to be. Picking up Alex's code I can see how things work with my previous knowledge of how carts operate.
 
-## Update December 2025
+The newest update has been done with the help of AI. I just wanted to get this thing done so it is off my active project list. Even though AI has helped, I have learned a little bit more about how CPLDs work because of it. In the future I'd like to use the knowledge to do another project.
 
-I threw in the towel on this project when I ran into issues testing MAX7000 and ATF150X chips. The code that worked on on the MAX3000 did not work as expected on the other chips. I needed a break to think about where to go from there. The main factor being, I am not a software engineer. I've since picked up C++ in arduino world and things in Verilog start to make sense. They are not the same at all, I know. In a basic sense, they both have IF statements, similar syntax like == and structures.
+## Update June 2026
 
-What happened was the MAX7000 and ATF150X (specifically the 7032S & 1502A) behave differently to the 3032A. ROM banking is flawless, both the Gameboy being able to read and also GBXcart being able to write. The problems I ran into were with SRAM. Some carts would save and load fine, while GBXcart would fail to write or read FRAM. The software seems to not know it failed (or it's verification was destructive). Some carts would not work at all on any device. The reason I use Pokemon R/G/B/Y is due to the FRAM sprite decompression. You can see in the title screen how well it is working. This is not isolated to FRAM, this is the same for SRAM. This problem also affects some 3032A carts though less often.
+I've picked this back up again when I found a PCB laying about. I had to wonder if AI was good enough now to help improve things. It is fortunately.
 
-In the end I have decided on a path forwards. I will continue with the EPM3064A and ATF1504A chips, dropping the MAX7000 series. The reason being, the MAX7000 is just not as available, its very old now and they cost more than the MAX3000 chips. The 1504A I only wish to continue with due to its availability as new. Sadly, it doews require a deifferent method of programming with a different programmer. The other point is the move to 64 and 04 vs the original aim for 32 and 02. Well, I've been poking at the software and the macro cell count is not enough.
+The previous update I was naive to think programming in C++ was anything like HDL. I mean it is, but the device being programmed works so differently to other CPU based systems.
 
-I intend to start learning Verilog well enough to tackle this project again. I have a dev board on the way and that will be used to code a BCD to 7 segment display decoder. I think it's complex enough to really dig in to things as a novice, while the principles of such a decoder are well documented, making the only hurdle to creating such a thing, is the language itself.
+The issue that has been plaguing the 7032S & 1504A, is the save RAM functionality. Games would not save, or correctly use the cartridge as work RAM. This was on the Gameboy and cart readers. I tested this over a few carts and the first one kinda worked. It was flaky but saving, yet only on the GB and not the cart reader. There worst problem is that this problem crept into some of the 3032A and 3064A carts also.
+
+This code refactor seems to have fixed all these problems, not only the MAX3000 but the MAX7000 also. As of now, the ATF1504 is untested. I am hopeful that it will work also. Programming those is more complex and I've since forgotten how to do it.
+
+The smaller EPM3032A, EPM7032S & ATF1502 with 32 macro cells are now more than big enough to fit the program, no longer is it so tight. This is thanks to removing the 128KB RAM functionality, reducing the amount of registers required to address that has gained a lot of space. Additional code can be added for more functionality such as moving the FRAM gate logic into the CPLD and making it user programmable with a solder bridge on the PCB.
+
+This is all very nice as the smaller chips tend to use less power than the larger counterparts, even though they use the same quantity of macro cells. I'll add more detailed information on the changes in its own readme.
+
+When the Atmel part is confirmed working, I'll update the rest of the readme to walk though programming those. Ideally the PCB could use a revision to add the FRAM mode jumper and a jumper to bypass the 3.3v regulator when using the MAX7000 and ATF15xx chips. Again, I'll get to that when testing is complete.
 
 ## Advantages vs disadvantages:
 
@@ -116,6 +124,10 @@ Removed internal FRAM chip select logic to lower cartridge power consumption 1 t
 ### V2.0
 
 Changed project compiler settings to lower cartridge power consumption 36 to 41%
+
+### V3.0
+
+AI helper to teach me and structure code better. Use of macro cells more efficient. Logic split into smaller sections. More reliable, cleaner code, better output waveforms (I need to confirm that).
 
 ## Links
 
