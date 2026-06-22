@@ -52,7 +52,7 @@ always @ (*) begin													// Monitor everything in this block
         ramCE = inputCE;											// If check passed, passthrough signal
     end
     else begin
-        ramCE = 1'b1; 												// Drive high for off, active low
+        ramCE = 1'b1; 												// Set output high for off - active low
     end
 end
 
@@ -102,7 +102,7 @@ always @ (*) begin													// Try negedge here instead of being transparent
             end
             else begin
                 if (inputData >= 7'd32) begin									// Is data greater or equal to decimal 32
-                    mbc3or5Locked <= 1'b1;										// If so, set lock bit
+                    mbc3or5Locked <= 1'b1;										// If so, set bit, CPU accessing over 512KB ROM
                 end
                 romBank <= inputData;											// ROM bank equals data
             end
