@@ -1,3 +1,3 @@
 Firmware for the EPM3064A
 
-Version 2 is suggested. Old firmware here in the case version 2 causes any issues.
+I would only use V3. Older firmware left for archival pruposes
