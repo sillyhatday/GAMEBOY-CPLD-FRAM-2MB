@@ -24,6 +24,28 @@ This is all very nice as the smaller chips tend to use less power than the large
 
 When the Atmel part is confirmed working, I'll update the rest of the readme to walk though programming those. Ideally the PCB could use a revision to add the FRAM mode jumper and a jumper to bypass the 3.3v regulator when using the MAX7000 and ATF15xx chips. Again, I'll get to that when testing is complete.
 
+## Project State:
+
+### Done
+
+	- Get a cartridge that works well enough
+	- Make the Altera 3032A & 3064A both work
+	- Fix SRAM problems with MAX7000 and edge case MAX3000
+
+### In Progress
+
+	- Fix this readme after half updating and rage quitting. Remove V2.0 PCB pics.
+	- Write draft of instructions for programming Atmel chips
+	- Do some power tests of carts I have built so far.
+
+## To Do
+
+	- Test flashing Atmel chips in circuit
+	- Design some hardware to flash Atmel chips in circuit
+	- Update PCB to include solder jumper for different CPLD families.
+	- Some issues with SRAM in FlashGBX with Atmel 1502A. Check hardware over & adjust WinCUPL settings.
+
+
 ## Advantages vs disadvantages:
 
 ### Advantages:
