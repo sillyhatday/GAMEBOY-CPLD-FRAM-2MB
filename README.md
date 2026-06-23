@@ -67,7 +67,6 @@ Some reasons to build this project are:
 | Cap 1uF | 0603 | 2 |
 | Res 10K | 0603 | 1 |
 
-
 ### JTAG Adaptor
 
 | Part No. | Qty |
@@ -83,11 +82,17 @@ Some reasons to build this project are:
 
 ## Build Photos
 
-![20240724_193152](https://github.com/user-attachments/assets/640603c4-fff9-43e4-a779-eaa6f85a892c)
+<img width="760" height="532" alt="cpldfram3" src="https://github.com/user-attachments/assets/41530c03-686e-400e-816a-e2e53a2379e0" />
 
-![20240724_193237](https://github.com/user-attachments/assets/b2873e74-364e-4473-9696-c0db93efc231)
+<img width="518" height="533" alt="cpldfram1" src="https://github.com/user-attachments/assets/66d644ff-2614-4e8a-81d5-7735039bf080" />
 
-![20240724_193322](https://github.com/user-attachments/assets/1edb8943-bc68-4531-a703-fbf612c330d6)
+<img width="518" height="533" alt="cpldfram2" src="https://github.com/user-attachments/assets/77461c35-323b-4296-aec4-04a6360b78a8" />
+
+**Different CPLD** <br>
+<img width="750" height="725" alt="CPLDcartclose" src="https://github.com/user-attachments/assets/519aafab-0ec3-47fe-abc3-09b49094288e" />
+
+**Original Prototype** <br>
+<img width="734" height="637" alt="Prototype3064A" src="https://github.com/user-attachments/assets/b9e41937-1537-47e6-a22d-27dc9e45a5e8" />
 
 ## Update June 2026
 
@@ -123,7 +128,7 @@ When the Atmel part is confirmed working, I'll update the rest of the readme to 
 🛍️ Inside Gadgets Shop: https://shop.insidegadgets.com <br>
 📎 Inside Gadgets GitHub: https://github.com/insidegadgets <br>
 📷 Inside Gadgets Insta: https://www.instagram.com/inside.gadgets <br>
-🖇️ Bytendo Mods GitHug: https://github.com/bytendomods <br>
+🖇️ Bytendo Mods GitHub: https://github.com/bytendomods <br>
 🐭 Bucket Mouse: https://github.com/Bucket-Mouse <br>
 🛒 Natalie Shop: https://nataliethenerd.com/ <br>
 🤓 Natalie GitHub: https://github.com/natalie-lang/natalie <br>
