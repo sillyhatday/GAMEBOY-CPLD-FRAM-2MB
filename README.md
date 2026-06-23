@@ -42,7 +42,8 @@ Some reasons to build this project are:
 	- Test flashing Atmel chips in circuit
 	- Design some hardware to flash Atmel chips in circuit
 	- Update PCB to include solder jumper for different CPLD families.
-	- Some issues with SRAM in FlashGBX with Atmel 1502A. Check hardware over & adjust WinCUPL settings.
+	- Some issues with SRAM in FlashGBX with Atmel 1502A. Check hardware over & adjust SVF export settings.
+	- Move FRAM chip select glue logic into software.
 
 ## 🟨 Prerequisites
 
