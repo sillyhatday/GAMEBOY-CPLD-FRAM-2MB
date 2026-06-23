@@ -1,5 +1,8 @@
 # GAMEBOY-MBC5-CPLD-2MB
 
+>[!WARNING]
+>Current circuit board revision does not include support for the MAX7000 or ATF150x CPLD without bodges.
+
 ## Introduction:
 
 This is my take of a CPLD based flash cart for the Gameboy.
