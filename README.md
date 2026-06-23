@@ -27,11 +27,11 @@ Some reasons to build this project are:
 	- Get a cartridge that works well enough
 	- Make the Altera 3032A & 3064A both work
 	- Fix SRAM problems with MAX7000 and edge case MAX3000
+	- Fix this readme after half updating and rage quitting. Remove V2.0 PCB pics.
+	- Write draft of instructions for programming Atmel chips
 
 ### :yellow_circle: In Progress
 
-	- Fix this readme after half updating and rage quitting. Remove V2.0 PCB pics.
-	- Write draft of instructions for programming Atmel chips
 	- Do some power tests of carts I have built so far.
 
 ### :white_circle: To Do
@@ -63,6 +63,13 @@ Some reasons to build this project are:
 ## 🟦 Parts List
 
 ### Cartridge x1
+
+>[!IMPORTANT]
+>When ordering cartridge PCBs, make sure to choose 0.8mm thickness and gold plating. <br>
+>Altera MAX3000 & MAX7000 CPLDs are obselete and only found on Aliexpress. I suggest the 3032A. (MAX7000 is a relic at this point). <br>
+>If ordering MAX7000, get the S version, otherwise throw your money in a fire. Eg, EPM7032S <br>
+>Atmel ATF150x parts can be bought new from reputable sellers. However they are trickier to program for the average person. <br>
+>Order FRAM from Aliexpress & eBay at your own risk, they are known to be ***extremely*** unreliable. <br>
 
 | Part No. | Package | Qty |
 | -------- | ------- | --- |
