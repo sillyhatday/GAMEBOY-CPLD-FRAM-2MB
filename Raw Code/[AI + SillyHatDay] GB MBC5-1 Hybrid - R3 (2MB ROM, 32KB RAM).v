@@ -29,9 +29,9 @@ reg [7:0]   highAddress;											// Storage for address outputs A20-A13
 reg [6:0]   romBank;												// Storage for selected ROM bank
 reg [1:0]   ramBank;												// Storage for selected RAM bank
 reg         ramEnabled;												// Are RAM read/writes enabled?
-reg         mbc1Detect303FOn;
-reg         mbc1Detected607F;										// 
-reg         mbc3or5Locked;											// Has MBC detection been decided?
+reg         mbc1Detect303FOn;                                       // Detected bank 0 switch, MBC1 behaviour
+reg         mbc1Detected607F;										// Write detected in area MBC3/5 doesn't write to
+reg         mbc3or5Locked;											// Accessed over bank 32, must be MBC3/5. (Ignoring the few 2MB MBC1 games)
 
 // ============================================================
 // Convenience wires - reusable logic blocks. Output routed to other blocks reading it.
@@ -48,7 +48,7 @@ wire isRomHigh  = (inputAddress >= 4'd4 && inputAddress <= 4'd7); 	// Looking at
 reg ramCE;
 
 always @ (*) begin													// Monitor everything in this block
-    if (ramEnabled && isRamArea && busActive) begin					// Is RAM enabled, address in range & bus clear?
+    if (ramEnabled && isRamArea && busActive) begin					// Is RAM enabled, address in range 0x0000–1FFF & bus clear?
         ramCE = inputCE;											// If check passed, passthrough signal
     end
     else begin
@@ -96,25 +96,25 @@ always @ (*) begin													// Try negedge here instead of being transparent
 
         if ((inputAddress == 4'd2 ||
             (inputAddress == 4'd3 && mbc1Detect303FOn)) && isWrite) begin		// 0x2000-3FFF — ROM Bank Number low 7 bits
-            if (inputData == 7'd0) begin										// MBC1 detection: if data=0 written, note it
-                romBank          <= 7'd1; 										// MBC5 allows bank 0, keep as 1 for safety
+            if (inputData == 7'd0) begin										// Check for a switch to bank 0, MBC1 behaviour
+                romBank          <= 7'd1; 										// MBC5 allows bank 0, keep as 1, doesn't seem to be a bother
                 mbc1Detect303FOn <= 1'b1;										// MBC1 detection noted
             end
             else begin
-                if (inputData >= 7'd32) begin									// Is data greater or equal to decimal 32
-                    mbc3or5Locked <= 1'b1;										// If so, set bit, CPU accessing over 512KB ROM
+                if (inputData >= 7'd32) begin									// Is a bank switch happening above bank 32?
+                    mbc3or5Locked <= 1'b1;										// If so it's MBC3 or 5, lock state to MBC5
                 end
-                romBank <= inputData;											// ROM bank equals data
+                romBank <= inputData;											// If none of the above, save data to register
             end
         end
 
         if ((inputAddress == 4'd4 || inputAddress == 4'd5) && isWrite) begin		// 0x4000-5FFF — RAM Bank Number
             if (!(mbc1Detect303FOn && mbc1Detected607F && !mbc3or5Locked)) begin	// Ignored if MBC1 detected and not MBC3/5
-                ramBank <= inputData[1:0];											// RAM banking set to lower 2 bits of data
+                ramBank <= inputData[1:0];											// Low two bits of inputData saved to register
             end
         end
 
-        if ((inputAddress == 4'd6 || inputAddress == 4'd7) && isWrite) begin	 // 0x6000-7FFF — MBC1 ROM/RAM mode detection
+        if ((inputAddress == 4'd6 || inputAddress == 4'd7) && isWrite) begin	 // 0x6000-7FFF — MBC1 ROM/RAM mode detection, MBC3/5 doesn't write here
             mbc1Detected607F <= 1'b1;											 // MBC1 detected, set register bit
         end
 
