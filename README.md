@@ -45,7 +45,7 @@ Some reasons to build this project are:
 
 	* The full components parts list and cart PCB
 	* (Optional) JTAG adaptor PCB
-	* Altera USB Blaster ***or*** FT232 for JTAG (cheap clones work)
+	* Altera USB Blaster or FT232 for JTAG (cheap clones work)
 	* Windows PC with Quartus II Programmer, Quartus II Web Edition or OpenOCD
 	* GBxCart and related software
  	* Modified Gameboy cart shell or (optional) 3D printed Game Gear cart adaptor
