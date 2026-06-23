@@ -52,6 +52,14 @@ Some reasons to build this project are:
 	* Equipment to solder tiny SMD components
 	* Skills to solder tiny SMD components reliably
 
+## 🔌 CPLD Programming
+
+>[!TIP]
+>Guides on setting up and programming your chosen CPLD
+
+[Altera Guide](AlteraProgrammingGuide.md) <br>
+[Atmel Guide](AtmelProgrammingGuide.md) <br>
+
 ## 🟦 Parts List
 
 ### Cartridge x1
