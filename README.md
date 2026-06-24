@@ -59,9 +59,10 @@ Some reasons to build this project are:
 ## 🔌 CPLD Information
 
 >[!TIP]
->Guides on setting up and programming your chosen CPLD <br>
+>Information on chosing a CPLD <br>
 >[ALTERA PROGRAMMING GUIDE](AlteraProgrammingGuide.md) <br>
 >[ATMEL PROGRAMMING GUIDE](AtmelProgrammingGuide.md) <br>
+>[CPLD POWER USAGE](CartPowerUse.md) <br>
 
 Prices vary, these are typical.
 
