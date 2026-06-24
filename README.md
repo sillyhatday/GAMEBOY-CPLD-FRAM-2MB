@@ -60,11 +60,10 @@ Some reasons to build this project are:
 
 >[!TIP]
 >Guides on setting up and programming your chosen CPLD
+>[ALTERA PROGRAMMING GUIDE](AlteraProgrammingGuide.md) <br>
+>[ATMEL PROGRAMMING GUIDE](AtmelProgrammingGuide.md) <br>
 
-[ALTERA PROGRAMMING GUIDE](AlteraProgrammingGuide.md) <br>
-[ATMEL PROGRAMMING GUIDE](AtmelProgrammingGuide.md) <br>
-
-Prices vary, these are typical at any time.
+Prices vary, these are typical.
 
 | Model | Cost x1 | Vendor |
 | ----- | ------- | ------ |
@@ -72,6 +71,15 @@ Prices vary, these are typical at any time.
 | 3064A: | €1.60 | Aliexpress |
 | 7032S: | €1.85 | Aliexpress |
 | 1504A: | €1.97 | Mouser |
+
+Depending on the model, the AP2127K-3.3TRG1 may not be needed.
+
+| Model | AP2127K | Jumper |
+| ----- | ------- | ------ |
+| 3032A | YES | NO |
+| 3064A | YES | NO |
+| 7032S | NO | YES |
+| 1502A | NO | YES |
 
 ## 🟦 Parts List
 
@@ -90,10 +98,12 @@ Prices vary, these are typical at any time.
 | FM1808 | SOIC28 | 1 |
 | EPM3064A/32A | TQFP44 | 1 |
 | 74LVC1G332 | TSOP6 | 1 |
-| AP2127K-3.3TRG1 | SOT23-5 | 1 |
+| AP2127K-3.3TRG1* | SOT23-5 | 1 |
 | Cap 100nF | 0603 | 4 |
 | Cap 1uF | 0603 | 2 |
 | Res 10K | 0603 | 1 |
+
+**See CPLD info*
 
 ### JTAG Adaptor
 
@@ -106,7 +116,7 @@ Prices vary, these are typical at any time.
 | USB Blaster | 1 |
 
 >[!TIP]
->Link to GG Adaptor: https://www.thingiverse.com/thing:5830799
+>Link to [Game Gear Adaptor](https://www.thingiverse.com/thing:5830799)
 
 ## Build Photos
 
