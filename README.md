@@ -56,13 +56,22 @@ Some reasons to build this project are:
 	* Equipment to solder tiny SMD components
 	* Skills to solder tiny SMD components reliably
 
-## 🔌 CPLD Programming
+## 🔌 CPLD Information
 
 >[!TIP]
 >Guides on setting up and programming your chosen CPLD
 
-[Altera Guide](AlteraProgrammingGuide.md) <br>
-[Atmel Guide](AtmelProgrammingGuide.md) <br>
+[ALTERA PROGRAMMING GUIDE](AlteraProgrammingGuide.md) <br>
+[ATMEL PROGRAMMING GUIDE](AtmelProgrammingGuide.md) <br>
+
+Prices vary, these are typical at any time.
+
+| Model | Cost x1 | Vendor |
+| ----- | ------- | ------ |
+| 3032A: | €1.16 | Aliexpress |
+| 3064A: | €1.60 | Aliexpress |
+| 7032S: | €1.85 | Aliexpress |
+| 1504A: | €1.97 | Mouser |
 
 ## 🟦 Parts List
 
