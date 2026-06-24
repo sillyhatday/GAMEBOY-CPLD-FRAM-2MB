@@ -97,14 +97,15 @@ Depending on the model, the AP2127K-3.3TRG1 may not be needed.
 | -------- | ------- | --- |
 | 29F016 | TSOP48 | 1 |
 | FM1808 | SOIC28 | 1 |
-| EPM3064A/32A | TQFP44 | 1 |
+| CPLD* | TQFP44 | 1 |
 | 74LVC1G332 | TSOP6 | 1 |
-| AP2127K-3.3TRG1* | SOT23-5 | 1 |
+| AP2127K-3.3TRG1** | SOT23-5 | 1 |
 | Cap 100nF | 0603 | 4 |
 | Cap 1uF | 0603 | 2 |
 | Res 10K | 0603 | 1 |
 
-**See CPLD info*
+**EPM3064A, EPM3032A, EPM7064S, EPM7032S, ATF1504A or ATF1502A*
+***See CPLD info*
 
 ### JTAG Adaptor
 
