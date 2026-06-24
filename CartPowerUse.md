@@ -72,5 +72,18 @@
 | Pokemon Stats        | ----            | ----            | 46.3            | 48.1 |
 | Average              | ----            | ----            | 46.0*           | 45.9** |
 
-**Buggy and strange flashing behaviour*
-***RAM refuses to flash properly under sustained writes*
+>[!NOTE]
+>**Buggy and strange flashing behaviour* <br>
+>***RAM refuses to flash properly under sustained writes* <br>
+
+## Summary
+
+I did not expect the MAX3000 chips to get worse with a *better* firmware. It's not a huge difference, but it is there. I also did not expect the MAX7000 to get better! There is obviously some architecture differences that favour the older ***long*** obselete MAX7000 series.
+
+The unfortunate data comes from the Atmel chips. I was hopeful these would be competative with the others as they are the only readily availible items. Not only have I had endless troubles getting save RAM to work properly, the amount of power used is too high. For example, a stock DMG running a stock Pokemon Blue cart uses between 44 - 60mA for the entire console...
+
+The clear winner is the 3032A, with the lowest power use and it also being the cheapest to purchase.
+
+Second place is a tie between the 3064A and 7032S. While the 3064A is the cheaper of the two, the 7032S is better on power. I call it a draw as the 7032S doesn't cost a lot more than the 3064A.
+
+Last place its the 1502A with awful power draw, highest price, harder to program and still not fully working.
